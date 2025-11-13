@@ -2,7 +2,7 @@ manifestVersion: 1
 id: stxr-soulseek
 name: Soulseek
 tagline: Bring your music to umbrel
-icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/stxr-soulseek/images/icon.svg
+icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/refs/heads/main/stxr-soulseek/images/icon.svg
 category: Development
 version: "1.0.0"
 port: 5030
