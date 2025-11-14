@@ -1,5 +1,10 @@
 version: "3.7"
 services:
+  app_proxy:
+    environment:
+      APP_HOST: soulseek_server_1
+      APP_PORT: 5030
+    container_name: soulseek_app_proxy_1
   slskd:
     image: slskd/slskd
     container_name: slskd
@@ -9,10 +14,11 @@ services:
       - 50300:50300
     environment:
       - SLSKD_REMOTE_CONFIGURATION=true
+      - PUID=1000
+      - PGID=1000
     volumes:
-      - ${APP_DIR}:/app
-      - ${SLSKD_CONFIG}:/config
-      - ${SLSKD_DOWNLOADS_DIR}:/app/downloads
-      - ${SLSKD_INCOMPLETE_DIR}:/app/incomplete
-    restart: always
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/home/Downloads:/app/downloads
+      - ${UMBREL_ROOT}/home/Downloads/incomplete:/app/incomplete
+    restart: on-failure
 networks: {}
