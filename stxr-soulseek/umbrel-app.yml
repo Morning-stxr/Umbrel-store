@@ -15,9 +15,9 @@ description: >-
 developer: slskd
 website: https://umbrel.com
 submitter: Morning_stxr
-submission: https://github.com/Morning-stxr/Umbrel-store/soulseek
-repo: https://github.com/Morning-stxr/Umbrel-store/soulseek
-support: https://github.com/Morning-stxr/Umbrel-store/soulseek/issues
+submission: https://github.com/Morning-stxr/Umbrel-store/stxr-soulseek
+repo: https://github.com/Morning-stxr/Umbrel-store/stxr-soulseek
+support: https://github.com/Morning-stxr/Umbrel-store/stxr-soulseek/issues
 gallery:
 releaseNotes: >-
   Add what's new in the latest version of your app here.
