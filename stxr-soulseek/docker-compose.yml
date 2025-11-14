@@ -2,12 +2,15 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: soulseek_server_1
+      APP_HOST: slskd_server_1
       APP_PORT: 5030
-    container_name: soulseek_app_proxy_1
-  slskd:
-    image: slskd/slskd
-    container_name: slskd
+    container_name: slskd_app_proxy_1
+
+  server:
+    image: >-
+      slskd/slskd@sha256:239ccb871fa1a624aa8ad4f11a712b4ec6c7a2ff570bf5800abae2cf91030834
+    container_name: slskd_server_1
+    hostname: ${DEVICE_HOSTNAME}
     ports:
       - 5030:5030
       - 5031:5031
