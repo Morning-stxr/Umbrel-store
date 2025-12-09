@@ -10,7 +10,6 @@ services:
     image: >-
       slskd/slskd:latest
     container_name: slskd_server_1
-    hostname: ${DEVICE_HOSTNAME}
     ports:
       - 5030:5030
       - 5031:5031
