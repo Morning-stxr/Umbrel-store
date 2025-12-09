@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   wireguard:
-    image: linuxserver/wireguard@sha256:a041042e27c33870e2b38ab6344052c53efa09732fbca12e5eab2321fa2a7216
+    image: linuxserver/wireguard:latest
     container_name: wireguard
     cap_add:
       - NET_ADMIN
@@ -21,7 +21,7 @@ services:
     restart: unless-stopped
 
   wireguard-ui:
-    image: ngoduykhanh/wireguard-ui@sha256:3ea1f2eb998648ae234b34be5969ef2420acccc9174001cb701c1bb9962f7908
+    image: ngoduykhanh/wireguard-ui:latest
     container_name: wireguard-ui
     depends_on:
       - wireguard
