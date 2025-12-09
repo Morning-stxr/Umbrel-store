@@ -28,8 +28,8 @@ description: >-
   Perfect for home users and self-hosters who want an easy way to manage their VPN without command-line configuration.
 
 developer: Ngo Duy Khanh
-website: https://github.com/ngoduykhanh/wireguard-ui
-submitter: Community
+website: https://umbrel.com
+submitter: Morning_stxr
 submission:  https://github.com/Morning-stxr/Umbrel-store/stxr-wg-client
 repo: https://github.com/ngoduykhanh/wireguard-ui
 support: https://github.com/ngoduykhanh/wireguard-ui/issues
@@ -38,15 +38,7 @@ gallery:
   - https://raw.githubusercontent.com/ngoduykhanh/wireguard-ui/master/screenshots/client.png
   - https://raw.githubusercontent.com/ngoduykhanh/wireguard-ui/master/screenshots/qrcode.png
 releaseNotes: >-
-  Initial release with full WireGuard management capabilities:
-
-  - Web-based configuration management
-
-  - Import existing .conf files
-
-  - QR code generation for mobile clients
-
-  - Real-time connection monitoring
+  Add whats new in the latest version of your app here
 dependencies: []
 path: ""
 defaultUsername: "admin"
