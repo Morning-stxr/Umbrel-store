@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: wireguard-ui
+      APP_HOST: wireguard
       APP_PORT: 5000
     container_name: wg_client_app_proxy
 
