@@ -1,0 +1,53 @@
+manifestVersion: 1
+id: wireguard-ui
+name: WireGuard UI
+tagline: Web-based GUI for managing WireGuard VPN configurations
+icon: https://raw.githubusercontent.com/WireGuard/wireguard-logo/master/wireguard-icon.svg
+category: Networking
+version: "1.0.0"
+port: 5000
+description: >-
+  WireGuard UI provides a simple, user-friendly web interface for managing your WireGuard VPN server and clients.
+  
+
+  Features:
+
+  - Import and manage existing WireGuard configurations
+
+  - Add, edit, and remove VPN peers through an intuitive web interface
+
+  - Generate QR codes for easy mobile device setup
+
+  - Monitor connection status and traffic statistics
+
+  - Manage multiple WireGuard interfaces
+
+  - Secure authentication with customizable credentials
+
+
+  Perfect for home users and self-hosters who want an easy way to manage their VPN without command-line configuration.
+
+developer: Ngo Duy Khanh
+website: https://github.com/ngoduykhanh/wireguard-ui
+submitter: Community
+submission: https://github.com/ngoduykhanh/wireguard-ui
+repo: https://github.com/ngoduykhanh/wireguard-ui
+support: https://github.com/ngoduykhanh/wireguard-ui/issues
+gallery:
+  - https://raw.githubusercontent.com/ngoduykhanh/wireguard-ui/master/screenshots/dashboard.png
+  - https://raw.githubusercontent.com/ngoduykhanh/wireguard-ui/master/screenshots/client.png
+  - https://raw.githubusercontent.com/ngoduykhanh/wireguard-ui/master/screenshots/qrcode.png
+releaseNotes: >-
+  Initial release with full WireGuard management capabilities:
+
+  - Web-based configuration management
+
+  - Import existing .conf files
+
+  - QR code generation for mobile clients
+
+  - Real-time connection monitoring
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
