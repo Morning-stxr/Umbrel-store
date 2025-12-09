@@ -8,7 +8,7 @@ services:
 
   server:
     image: >-
-      slskd/slskd@sha256:239ccb871fa1a624aa8ad4f11a712b4ec6c7a2ff570bf5800abae2cf91030834
+      slskd/slskd:latest
     container_name: slskd_server_1
     hostname: ${DEVICE_HOSTNAME}
     ports:
@@ -24,4 +24,3 @@ services:
       - ${UMBREL_ROOT}/home/Downloads:/app/downloads
       - ${UMBREL_ROOT}/home/Downloads/incomplete:/app/incomplete
     restart: on-failure
-networks: {}
