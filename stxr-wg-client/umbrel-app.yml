@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: wireguard-ui
-name: WireGuard UI
+id: stxr-wg-client
+name: Wg Client
 tagline: Web-based GUI for managing WireGuard VPN configurations
 icon: https://raw.githubusercontent.com/WireGuard/wireguard-logo/master/wireguard-icon.svg
 category: Networking
