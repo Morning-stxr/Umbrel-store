@@ -1,0 +1,56 @@
+manifestVersion: 1
+id: stxr-postgres
+name: PostgreSQL
+tagline: Postgres with GUI for managing database configurations
+icon: 
+category: Developing
+version: "1.0.0"
+port: 5050
+description: >-
+  # PostgreSQL + pgAdmin
+
+  Your own powerful database server with a beautiful web interface
+
+  Run a complete PostgreSQL database instance on your Umbrel server with pgAdmin's intuitive web-based management interface. Perfect for powering your self-hosted applications, learning database management, or managing data for your homelab projects.
+
+  ## What's Included
+
+  - **PostgreSQL 16** - The world's most advanced open-source relational database
+  - **pgAdmin** - Full-featured web interface for managing your databases
+  - **Persistent Storage** - Your data is safely stored and survives restarts
+  - **Isolated Network** - Services communicate securely within your Umbrel
+
+  ## Perfect For
+
+  - **Self-hosted App Development** - Build and test applications that need a database
+  - **Data Management** - Store and organize structured data for your homelab
+  - **Learning SQL** - Practice database queries and management in a safe environment
+  - **Home Automation** - Backend storage for Home Assistant, Node-RED, and other tools
+  - **Personal Projects** - Power your custom apps, dashboards, and services
+
+  ## Easy to Use
+
+  Once installed, access pgAdmin through your Umbrel dashboard. Create databases, run queries, import/export data, and manage everything through an intuitive point-and-click interface - no command line required (though it's available if you want it).
+
+  ## Technical Details
+
+  - PostgreSQL 16 (latest stable version)
+  - Automatic backups with persistent volumes
+  - Standard PostgreSQL port (5432) for application connections
+  - Web interface accessible via Umbrel dashboard
+  - Compatible with all PostgreSQL-compatible tools and libraries
+
+  Whether you're running Home Assistant, building custom dashboards, or experimenting with self-hosted services, PostgreSQL gives you enterprise-grade database capabilities right on your Umbrel server.
+
+developer: idk
+website: https://umbrel.com
+submitter: Morning_stxr
+submission: https://github.com/Morning-stxr/Umbrel-store/stxr-postgres
+repo: https://github.com/docker-library/postgres
+support: https://github.com/docker-library/postgres/issues
+releaseNotes: >-
+  whats new?
+dependencies: []
+path: ""
+defaultUsername: "admin" 
+defaultPassword: "admin123"
