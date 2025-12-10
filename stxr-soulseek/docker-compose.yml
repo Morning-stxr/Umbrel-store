@@ -13,10 +13,12 @@ services:
     cap_add:
       - NET_ADMIN
       - SYS_MODULE
-    ports:
-      - 5030:5030
-      - 5031:5031
-      - 50300:50300
+    #ports:
+    #  - 5030:5030
+    #  - 5031:5031
+    #  - 50300:50300
+    expose:
+      - 5030
     environment:
       - SLSKD_REMOTE_CONFIGURATION=true
       - PUID=1000
