@@ -1,6 +1,7 @@
 version: "3.7"
 services:
   app_proxy:
+    image: getumbrel/app-proxy:latest
     environment:
       APP_HOST: slskd
       APP_PORT: 5030
