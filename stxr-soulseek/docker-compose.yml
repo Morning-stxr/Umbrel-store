@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: slskd
-      APP_PORT: 5030
+      APP_PORT: 5031
     container_name: slskd_app_proxy
 
   slskd:
