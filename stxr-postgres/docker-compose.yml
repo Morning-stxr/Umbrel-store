@@ -1,6 +1,12 @@
 version: '3.8'
 
 services:
+  app_proxy:
+    environment:
+      APP_HOST: postgreSQL
+      APP_PORT: 5050
+    container_name: postgres_db
+
   postgres:
     image: postgres:16
     container_name: postgres_db
