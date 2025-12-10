@@ -3,7 +3,7 @@ version: '3.8'
 services:
   app_proxy:
     environment:
-      APP_HOST: postgres
+      APP_HOST: pgadmin
       APP_PORT: 5001
     container_name: postgres_client_app_proxy
 
