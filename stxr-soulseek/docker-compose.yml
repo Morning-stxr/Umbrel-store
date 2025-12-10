@@ -2,14 +2,13 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: slskd_server_1
+      APP_HOST: slskd
       APP_PORT: 5030
-    container_name: slskd_app_proxy_1
+    container_name: slskd_app_proxy
 
-  server:
-    image: >-
-      slskd/slskd:latest
-    container_name: slskd_server_1
+  slskd:
+    image: slskd/slskd:latest
+    container_name: slskd
     ports:
       - 5030:5030
       - 5031:5031
