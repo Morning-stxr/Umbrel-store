@@ -3,12 +3,15 @@ services:
   app_proxy:
     environment:
       APP_HOST: slskd
-      APP_PORT: 5031
+      APP_PORT: 5030
     container_name: slskd_app_proxy
 
   slskd:
     image: slskd/slskd:latest
     container_name: slskd
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
     ports:
       - 5030:5030
       - 5031:5031
