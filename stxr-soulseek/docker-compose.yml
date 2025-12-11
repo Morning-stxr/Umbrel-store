@@ -26,6 +26,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${UMBREL_ROOT}/home/Downloads:/app/downloads
-      - ${UMBREL_ROOT}/home/Downloads/incomplete:/app/downloads/incomplete
-      - ${UMBREL_ROOT}/home/Downloads/complete:/app/downloads/complete
+      - ${UMBREL_ROOT}/home/Downloads/incomplete:/app/incomplete
+      - ${UMBREL_ROOT}/home/Downloads/complete:/app/complete
     restart: on-failure
