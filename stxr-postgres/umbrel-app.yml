@@ -52,5 +52,5 @@ releaseNotes: >-
   whats new?
 dependencies: []
 path: ""
-defaultUsername: "admin" 
+defaultUsername: "admin@admin.com" 
 defaultPassword: "admin123"
