@@ -22,7 +22,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${APP_DATA_DIR}/data:/app
-      - ${UMBREL_ROOT}/home/Downloads:/app/umbrel
+      - ${UMBREL_ROOT}/home:/app/umbrel
       - ${UMBREL_ROOT}/home/Downloads/soulseek/incomplete:/app/incomplete
       - ${UMBREL_ROOT}/home/Downloads/soulseek/complete:/app/downloads
     restart: on-failure
