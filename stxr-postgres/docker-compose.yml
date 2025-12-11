@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: pgadmin
-      APP_PORT: 5001
+      APP_PORT: 5020
     container_name: postgres_client_app_proxy
 
   postgres:
@@ -27,8 +27,9 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin123
+      PGADMIN_LISTEN_PORT: "5020"
     ports:
-      - "5050:5001"
+      - "5021:5020"
     volumes:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
