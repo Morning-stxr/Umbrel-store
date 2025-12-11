@@ -10,5 +10,9 @@ services:
     restart: on-failure
     user: '1000:1000'
     container_name: lobe-chat_app_1
-    env_file:
-      - .env
+    environment:
+      - NEXT_PUBLIC_ENABLE_NEXT_AUTH=${NEXT_PUBLIC_ENABLE_NEXT_AUTH}
+      - NEXT_AUTH_SECRET=${NEXT_AUTH_SECRET}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+      - DATABASE_URL=${DATABASE_URL}
+      - KEY_VAULTS_SECRET=${KEY_VAULTS_SECRET}
