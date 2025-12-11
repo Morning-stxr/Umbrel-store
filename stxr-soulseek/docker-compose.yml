@@ -13,10 +13,6 @@ services:
     cap_add:
       - NET_ADMIN
       - SYS_MODULE
-    #ports:
-    #  - 5030:5030
-    #  - 5031:5031
-    #  - 50300:50300
     expose:
       - 5030
     environment:
@@ -26,8 +22,7 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${APP_DATA_DIR}/data:/app
-      - ${UMBREL_ROOT}/home/Downloads:/app/directories
-      - ${UMBREL_ROOT}/home/Music:/app/music
+      - ${UMBREL_ROOT}/home/Downloads:/app/umbrel
       - ${UMBREL_ROOT}/home/Downloads/soulseek/incomplete:/app/incomplete
       - ${UMBREL_ROOT}/home/Downloads/soulseek/complete:/app/downloads
     restart: on-failure

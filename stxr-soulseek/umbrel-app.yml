@@ -4,7 +4,7 @@ name: Soulseek
 tagline: Bring your music to umbrel
 icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/refs/heads/main/stxr-soulseek/images/icon.svg
 category: Media
-version: "1.0.0"
+version: "1.0.1"
 port: 5030
 description: >-
   Add your app's description here.
@@ -20,8 +20,7 @@ repo: https://github.com/slskd/slskd/
 support: https://github.com/slskd/slskd/issues
 gallery:
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
+  reworked directories to make them more intuitive
 path: ""
 defaultUsername: "slskd"
 defaultPassword: "slskd"
