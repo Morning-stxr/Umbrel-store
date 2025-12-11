@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  app_proxy:
+    environment:
+      APP_HOST: lobe-chat_app_1
+      APP_PORT: 3210
+    container_name: lobe-chat_app_proxy_1
+  app:
+    image: lobehub/lobe-chat-database:latest
+    restart: on-failure
+    user: '1000:1000'
+    container_name: lobe-chat_app_1
+    env_file:
+      - .env

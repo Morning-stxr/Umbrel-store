@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: stxr-wg-client
-name: Wg Client
+id: stxr-viper-vpn
+name: Viper VPN
 tagline: Web-based GUI for managing WireGuard VPN configurations
-icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/refs/heads/main/stxr-wg-client/images/icon.svg
+icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/refs/heads/main/stxr-viper-vpn/images/icon.svg
 category: Networking
 version: "1.0.0"
 port: 5000
@@ -30,7 +30,7 @@ description: >-
 developer: Ngo Duy Khanh
 website: https://umbrel.com
 submitter: Morning_stxr
-submission:  https://github.com/Morning-stxr/Umbrel-store/stxr-wg-client
+submission:  https://github.com/Morning-stxr/Umbrel-store/stxr-viper-vpn
 repo: https://github.com/ngoduykhanh/wireguard-ui
 support: https://github.com/ngoduykhanh/wireguard-ui/issues
 gallery:
