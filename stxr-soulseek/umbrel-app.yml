@@ -8,8 +8,6 @@ version: "1.0.2"
 port: 5030
 description: >-
   Add your app's description here.
-
-
   You can also add newlines!
 
 developer: slskd
