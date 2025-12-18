@@ -4,7 +4,7 @@ name: SoulSync
 tagline: Soulseek indexer for umbrel
 icon: https://raw.githubusercontent.com/Morning-stxr/Umbrel-store/refs/heads/main/stxr-soulsync/images/icon.svg
 category: Media
-version: "1.0.1"
+version: "1.0.2"
 port: 8008
 description: >-
   Add your app's description here.
@@ -18,5 +18,5 @@ repo: https://github.com/Nezreka/SoulSync
 support: https://github.com/Nezreka/SoulSync
 gallery: ""
 releaseNotes: >-
-  - new app icon for soulsync!
+  - made some qol updates to the docker yaml file!
 path: ""
