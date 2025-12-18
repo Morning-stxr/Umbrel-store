@@ -45,7 +45,7 @@
     "embed_album_art": true
   },
   "file_organization": {
-    "enabled": true,
+    "enabled": false,
     "templates": {
       "album_path": "$albumartist/$album/$track - $title",
       "single_path": "$artist/$artist - $title/$title",
